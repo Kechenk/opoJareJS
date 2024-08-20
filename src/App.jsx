@@ -1,19 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Button, Container, Link } from '@mui/material'
-import * as React from 'react';
-import Navbar from './Button/Navbar';
-
+import { Button, Container, Link } from "@mui/material";
+import * as React from "react";
+import Navbar from "./components/Navbar";
+import Card from "./components/Card";
+import { Outlet } from "react-router-dom";
+// import Router from "./main/router"
 
 function App() {
   return (
     <>
-    <Container>
-      <Navbar />
-    </Container>
+      <Container sx={{ p: 4 }}>
+        <Navbar />
+        <Outlet />
+      </Container>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
