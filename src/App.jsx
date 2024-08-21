@@ -7,12 +7,10 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Container sx={{ p: 4 }}>
-        <Navbar />
-        <Outlet />
-      </Container>
-    </>
+    <Container sx={{ p: 4 }}>
+      <Navbar />
+      <Outlet />
+    </Container>
   );
 }
 
