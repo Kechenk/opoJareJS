@@ -7,7 +7,7 @@ Jangan lupa ucapkan terima kasih kepada sefuh sefuh yang membuat proyek ini menj
 - 🍕 [Sensasi Delight](https://github.com/sensasi-delight): Terima kasih telah memaksa saya baca dokumentasi.
 - 👨‍🔬 [kimmyxpow](https://github.com/kimmyxpow): Yang paling jago dalam berkata "wah gatau mas ceng." Ilmu tingkat dewa.
 - 🗣️ [Pace !!](https://github.com/dean-fahreza): Spesialis ngebacot dan berkata sampah. Fakyu Barca! Jual aja stadionnya ke Spotify!
-- 🎧 [Mas Ami](https://github.com/muchfahmiarif): DJ Koplo harian. Kuping saya sudah di level titanium karena koplo 24/7.
+- 🎧 [Mas Ami](https://github.com/muchfahmiarif): Maestro Koplo x Dewa Poker Night (nanti ikut ke macaw ya mas).
 - 🧑‍🏫 [Arul](https://github.com/rulanugrh): Mentor yang sabar ngajarin how to git. Kalau nggak ada dia, mungkin saya masih ngoding di Notepad.
 
 Lopyu gaes! 💕 
