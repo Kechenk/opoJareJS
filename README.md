@@ -1,15 +1,14 @@
 # React + Vite + Material UI
 
-Project ini menggunakan React + Vite * Material UI = DIJOKI
-shootout juga kepada sdr. https://github.com/kimmyxpow untuk tidak berkata sampah
-shootout kepada bapac https://github.com/sensasi-delight untuk mengtutor saiyah
-big shooutout kepada https://github.com/dean-fahreza untuk ngebacot dan berkata sampah, fakyu barca !! (Jual aja stadionnya ke spotifay)
-terimakasih kepada https://github.com/muchfahmiarif yang hari hari nyetel lagu koplo sampe kuping budeg
+Proyek ini menggunakan **React + Vite + Material UI** = DIJOKI
 
-lopyu ges 
+Shout out juga kepada:
+- [kimmyxpow](https://github.com/kimmyxpow) untuk tidak berkata sampah.
+- [Sensasi Delight](https://github.com/sensasi-delight) untuk mengajari saya.
+- [Pace !!](https://github.com/dean-fahreza) untuk ngebacot dan berkata sampah, fakyu barca!! (Jual aja stadionnya ke Spotify)
+- [Mas Ami](https://github.com/muchfahmiarif) yang hari-hari nyetel lagu koplo sampai kuping budeg.
+- [Arul](https://github.com/rulanugrh) yang sudah ngajarin how to git
+Lopyu guys!
 
-gatau githubnya
+GitHub-nya nggak tahu:
 - poi
-- hangteabin
-
-- barca club sampah !!
