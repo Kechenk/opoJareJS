@@ -1,42 +1,36 @@
-import * as React from "react";
-import { Box, Paper, Grid, styled } from "@mui/material";
-
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: "#e0e0e0",
-  ...theme.typography.body2,
-  padding: theme.spacing(6),
-  textAlign: "center",
-  color: "#424242",
-  fontWeight: "bold",
-}));
+import {
+  Box,
+  Card,
+  CardContent,
+  Container,
+  Grid,
+  Paper,
+  Stack,
+} from "@mui/material";
 
 export default function () {
   return (
-    <Box sx={{ mt: 8 }}>
-        <Grid 
-        justifyContent="space-around"
-        container spacing={6} 
-        columnSpacing={{ sm:2 , md:4 }}
-        >
+    <>
+      <Box sx={{ mt: 2 }}>
+        <Grid container>
           <Grid item md={2}>
-            <Item>ITEM 1</Item>
-          </Grid>
-          <Grid item md={6}>
-            <Item>ITEM 2</Item>
-          </Grid>
-          <Grid item md={4}>
-            <Item>ITEM 3</Item>
-          </Grid>
-          <Grid item md={6}>
-            <Item>ITEM 4</Item>
-          </Grid>
-          <Grid item md={4}>
-            <Item>ITEM 5</Item>
-          </Grid>
-          <Grid item md={2}>
-            <Item>ITEM 6</Item>
+            <Card>
+              <Grid
+                container
+                spacing={2}
+                sx={{
+                  justifyContent: "center",
+                  fontWeight: "bold",
+                }}
+              >
+                <CardContent>
+                  Hi
+                </CardContent>
+              </Grid>
+            </Card>
           </Grid>
         </Grid>
-    </Box>
+      </Box>
+    </>
   );
 }
