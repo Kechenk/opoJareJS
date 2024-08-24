@@ -1,13 +1,11 @@
-import * as React from "react";
-import { Box, Paper, Grid, styled } from "@mui/material";
+import { Box, Paper, Grid, styled, Card } from "@mui/material";
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: "#e0e0e0",
   ...theme.typography.body2,
-  // padding: theme.spacing(8),
+  padding: theme.spacing(8),
   whiteSpace: "nowrap",
   textAlign: "center",
-  color: "#424242",
+  // color: "#424242",
   fontWeight: "bold",
 }));
 
@@ -17,21 +15,21 @@ export default function () {
       <Grid
         justifyContent="space-around"
         container
-        columnSpacing={{ md: 4, sm:2 }}
-        rowSpacing={2}
+        columnSpacing={2}
+        rowSpacing={3}
       >
-        <Grid item xs={3} md={2}
-        >
-          <Item sx={{ padding:3 }}
-          >ITEM 1</Item>
+        <Grid item xs={12} md={12}>
+          <Box sx={{ backgroundColor : "transparent" }}>
+            <Item>yes</Item>
+          </Box>
         </Grid>
-        <Grid item xs={3} md={6}>
-          <Item>ITEM 2</Item>
+        <Grid item xs={6} md={6}>
+          <Item>yes</Item>
         </Grid>
-        <Grid item xs={3} md={4}>
-          <Item>ITEM 3</Item>
+        <Grid item xs={6} md={6}>
+          <Item>yes</Item>
         </Grid>
-         {/* <Grid item xs={1} sm={2} md={6} lg={6}>
+        {/* <Grid item xs={1} sm={2} md={6} lg={6}>
             <Item>ITEM 4</Item>
           </Grid>
           <Grid item xs={1} sm={2} md={4} lg={4}>
