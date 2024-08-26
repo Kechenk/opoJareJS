@@ -1,4 +1,8 @@
-import { Box, Grid, Paper, Typography } from "@mui/material";
+import { Box, Grid, Paper } from "@mui/material";
+import BoxTrial from "./ui/BoxTrial";
+import { BoxSize } from "./ui/BoxSize";
+import Tombol from "./ui/Tombol";
+// import Tombol from "./ui/Tombol";
 
 
 export default function () {
@@ -10,71 +14,23 @@ export default function () {
         columnSpacing={2}
         rowSpacing={3}
       >
-        <Grid item xs={12} md={12}>
-          <Box
-            component="div"
-            height="21em"
-            maxWidth="100%"
-            bgcolor="rgb(18, 158, 84, 0.7)"
-            sx={{
-              borderRadius: 2,
-              backgroundImage: 'url("/img/bg.png")',
-              backgroundSize: "cover",
-            }}
-          >
-            <Text>
-              YEAH
-            </Text>
-          </Box>
-        </Grid>
-        <Grid item xs={6} md={6}>
-          <Box
-            component="div"
-            height="10em"
-            maxWidth="100%"
-            bgcolor="rgb(18, 158, 84, 0.7)"
-            sx={{
-              borderRadius: 2,
-              backgroundImage: 'url("/img/bg.png")',
-              backgroundSize: "cover",
-            }}
-          >
-            tes
-          </Box>
-        </Grid>
-        <Grid item xs={6} md={6}>
-          <Box
-            component="div"
-            height="10em"
-            maxWidth="100%"
-            bgcolor="rgb(18, 158, 84, 0.7)"
-            sx={{
-              borderRadius: 2,
-              backgroundImage: 'url("/img/bg.png")',
-              backgroundSize: "cover",
-            }}
-          >
-            tes
-          </Box>
-        </Grid>
 
-        <Grid item xs={6} md={6}>
-          <Box bgcolor="rgb(18, 158, 84, 0.7)" borderRadius={2}>
-            <Typography lineHeight="1em" component="span">
-              tesss
-            </Typography>
-            <Box
-              component="img"
-              src="/img/bg.png"
-              sx={{
-                width: "100%",
-                position: "relative",
-                verticalAlign: "middle",
-                borderRadius: 2,
-              }}
-            />
-          </Box>
-        </Grid>
+        {/* <BoxSize.MD />
+        <BoxSize.XS />
+        <BoxSize.XS /> */}
+
+        <BoxTrial  md={12} xs={12} height="21em">
+          <Tombol>
+            wow
+          </Tombol>
+        </BoxTrial>
+        <BoxTrial md={4} xs={4}>
+        </BoxTrial>
+        <BoxTrial md={4} xs={4} />
+        <BoxTrial md={4} xs={4}>
+        </BoxTrial>
+        
+
       </Grid>
     </Box>
   );

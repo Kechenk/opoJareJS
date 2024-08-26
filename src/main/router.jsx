@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Card from "../components/Card";
 import Kartu from "../components/Kartu";
+import Playground from "../components/Playground";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: "Kartu",
         element: <Kartu />,
+      },
+      {
+        path: "playground",
+        element: <Playground />
       }
     ],
   },

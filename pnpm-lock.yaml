@@ -14,6 +14,9 @@ importers:
       '@emotion/styled':
         specifier: ^11.13.0
         version: 11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
+      '@fontsource/plus-jakarta-sans':
+        specifier: ^5.0.21
+        version: 5.0.21
       '@fontsource/roboto':
         specifier: ^5.0.14
         version: 5.0.14
@@ -343,6 +346,9 @@ packages:
   '@eslint/object-schema@2.1.4':
     resolution: {integrity: sha512-BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource/plus-jakarta-sans@5.0.21':
+    resolution: {integrity: sha512-DFcGek9aPAlzQ7cPi+cEl3Xa9xUqcxU0+zhE5Dc76DCgRct9IpTEJab5K8MhBghAp1p45TWaxZlmxn4tmLSUFQ==}
 
   '@fontsource/roboto@5.0.14':
     resolution: {integrity: sha512-zHAxlTTm9RuRn9/StwclFJChf3z9+fBrOxC3fw71htjHP1BgXNISwRjdJtAKAmMe5S2BzgpnjkQR93P9EZYI/Q==}
@@ -1858,6 +1864,8 @@ snapshots:
   '@eslint/js@9.9.0': {}
 
   '@eslint/object-schema@2.1.4': {}
+
+  '@fontsource/plus-jakarta-sans@5.0.21': {}
 
   '@fontsource/roboto@5.0.14': {}
 
